@@ -1,5 +1,4 @@
 import gql from 'graphql-tag';
-
 export const QUERY_PRODUCTS = gql`
   query getProducts($category: ID) {
     products(category: $category) {
@@ -15,7 +14,6 @@ export const QUERY_PRODUCTS = gql`
     }
   }
 `;
-
 export const QUERY_ALL_PRODUCTS = gql`
   {
     products {
@@ -30,7 +28,6 @@ export const QUERY_ALL_PRODUCTS = gql`
     }
   }
 `;
-
 export const QUERY_CATEGORIES = gql`
 {
   categories {
@@ -39,7 +36,6 @@ export const QUERY_CATEGORIES = gql`
   }
 }
 `;
-
 export const QUERY_USER = gql`
 {
   user {
@@ -59,4 +55,11 @@ export const QUERY_USER = gql`
     }
   }
 }
+`;
+export const QUERY_CHECKOUT = gql`
+  query getCheckout($products: [ID]!) {
+    checkout(products: $products) {
+      session
+    }
+  }
 `;
