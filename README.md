@@ -30,7 +30,7 @@ Here is a preview of the application:
 ![Preview](https://drive.google.com/uc?export=view&id=1MEhe1R6HE8fm7FpmbPhuQlEN54VIP60p)
 
 ## Application
-This is the link to deployed application: 
+This is the link to deployed application: https://anishasnet-shop-shop.herokuapp.com/
 
 ## License
 
