@@ -45,11 +45,8 @@ function OrderHistory() {
             ))}
           </>
         ) : null}
-
       </div>
-
     </>)
-
 };
 
 export default OrderHistory;
